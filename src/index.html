@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Application</title>
+    <style>
+        #clocks-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .clock {
+            font-size: 48px;
+            font-weight: bold;
+            background-color: #FBE106;
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        button {
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="clocks-container"></div>
+
+
+<button id="modeButton">Mode</button>
+<button id="increaseButton">Increase</button>
+<button id="lightButton">Light</button>
+<button id="addButton">Add Clock</button>
+
+<script src="bundle.js"></script> 
+</body>
+</html>
